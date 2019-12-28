@@ -1,0 +1,140 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14358707158,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageStepDefination.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verifying all link under admin section",
+        "description": "",
+        "id": "home-page-features;verifying-all-link-under-admin-section",
+        "after": [
+          {
+            "result": {
+              "duration": 1025372332,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageStepDefination.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 365053602,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am already on the home page",
+            "match": {
+              "location": "HomePageStepDefination.i_am_already_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 134405,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I mouse hover to admin section",
+            "match": {
+              "location": "HomePageStepDefination.i_mouse_hover_to_admin_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103044,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I mouse hover on the job section",
+            "match": {
+              "location": "HomePageStepDefination.i_mouse_hover_on_the_job_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 210567,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I mouse hover on the job Titles link and click on it",
+            "match": {
+              "location": "HomePageStepDefination.i_mouse_hover_on_the_job_Titles_link_and_click_on_it()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 195847,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am directed to Job Titles page",
+            "match": {
+              "location": "HomePageStepDefination.i_am_directed_to_Job_Titles_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 217607,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I mouse hover on the job section again",
+            "match": {
+              "location": "HomePageStepDefination.i_mouse_hover_on_the_job_section_again()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 90243,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I mouse hover on the Pay Grades link and click on it",
+            "match": {
+              "location": "HomePageStepDefination.i_mouse_hover_on_the_Pay_Grades_link_and_click_on_it()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page features",
+    "description": "I want to use this template for my feature file",
+    "id": "home-page-features",
+    "keyword": "Feature",
+    "uri": "homepage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@RegressionTest"
+      }
+    ]
+  }
+]
