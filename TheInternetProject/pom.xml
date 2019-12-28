@@ -178,7 +178,7 @@
 						<id>execution</id>
 						<phase>verify</phase>
 						<goals>
-							<goal>genarate</goal>
+							<goal>generate</goal>
 						</goals>
 						<configuration>
 							<projectName>OrangeHRM</projectName>
