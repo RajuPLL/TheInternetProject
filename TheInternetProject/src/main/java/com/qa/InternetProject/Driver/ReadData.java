@@ -12,7 +12,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ReadData extends ReadProperty  {
 	
 	@SuppressWarnings("resource")
-	public static void main(String[] args) throws IOException {
+	public static void readexcel() throws IOException {
 		FileInputStream fin = new FileInputStream("F:\\Automation\\Test Data\\TestDataforSelinum.xlsx");
 		XSSFWorkbook workbook = new XSSFWorkbook(fin);
 		
